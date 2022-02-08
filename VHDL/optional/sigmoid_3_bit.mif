@@ -1,0 +1,15 @@
+DEPTH = 8;                    -- The size of memory in words
+WIDTH = 8;                    -- The size of data in bits
+ADDRESS_RADIX = DEC;          -- The radix for address values
+DATA_RADIX = DEC;             -- The radix for data values
+CONTENT                       -- start of (address : data pairs)
+BEGIN
+0 : 2;
+1 : 12;
+2 : 30;
+3 : 69;
+4 : 127;
+5 : 187;
+6 : 223;
+7 : 241;
+END;
