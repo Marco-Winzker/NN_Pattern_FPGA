@@ -38,7 +38,7 @@
 
 
 set_global_assignment -name FAMILY "Cyclone 10 LP"
-set_global_assignment -name DEVICE 10CL120YF484I7G
+set_global_assignment -name DEVICE 10CL120ZF484I8G
 set_global_assignment -name TOP_LEVEL_ENTITY nn_pattern
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:06:45  MARCH 22, 2021"
@@ -99,9 +99,9 @@ set_location_assignment PIN_N1 -to b_out[4]
 set_location_assignment PIN_N2 -to b_out[5]
 set_location_assignment PIN_R1 -to b_out[6]
 set_location_assignment PIN_R2 -to b_out[7]
-set_location_assignment PIN_AA16 -to enable_in[0]
-set_location_assignment PIN_AB15 -to enable_in[1]
-set_location_assignment PIN_AA15 -to enable_in[2]
+set_location_assignment PIN_AB14 -to enable_in[0]
+set_location_assignment PIN_AA14 -to enable_in[1]
+set_location_assignment PIN_AB13 -to enable_in[2]
 set_location_assignment PIN_AA19 -to vs_in
 set_location_assignment PIN_H1 -to vs_out
 set_location_assignment PIN_AB18 -to hs_in
@@ -111,10 +111,10 @@ set_location_assignment PIN_H3 -to de_out
 set_location_assignment PIN_T22 -to clk
 set_location_assignment PIN_P1 -to clk_o
 set_location_assignment PIN_AB16 -to reset_n
-set_location_assignment PIN_AB14 -to clk_n_o
-set_location_assignment PIN_AA14 -to led[0]
-set_location_assignment PIN_AB13 -to led[1]
-set_location_assignment PIN_AA13 -to led[2]
+set_location_assignment PIN_W10 -to clk_n_o
+set_location_assignment PIN_AA13 -to led[0]
+set_location_assignment PIN_AB10 -to led[1]
+set_location_assignment PIN_AA10 -to led[2]
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
