@@ -123,7 +123,7 @@ begin
 end process;
 --
 clk_o   <= clk;
-clk_n_o <= not clk;
+clk_n_o <= '0'; -- output not required, set to constant
 led     <= "000";
 --
 end behave;
